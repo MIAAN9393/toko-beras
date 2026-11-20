@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="id">
 <head>
   <meta charset="utf-8">
@@ -9,9 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=6">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
   <script src="assets/js/business-config.js" defer></script>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/services.js?v=2" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#konten">Lewati ke konten</a>
@@ -50,40 +51,58 @@
       </div><p class="catalog-note">Harga dan stok dapat ditanyakan langsung kepada tim KIA.</p>
     </div></section>
     <section class="about section" id="tentang"><div class="container about-grid"><div class="about-visual"><!-- TODO: GANTI DENGAN FOTO ASLI TOKO KIA --><img src="assets/images/placeholder-toko-kia.svg" alt="Placeholder untuk foto asli toko KIA"><span class="about-tag">DEKAT &#8226; LENGKAP &#8226; BERSAHABAT</span></div><div class="about-copy"><p class="eyebrow">CERITA KIA</p><h2>Lebih dekat dengan<br><em>kebutuhan harian.</em></h2><p>Toko Beras KIA hadir untuk membantu keluarga dan pelaku usaha memenuhi kebutuhan pokok dengan lebih mudah. Pilih beras favorit, lengkapi kebutuhan dapur, lalu hubungi kami untuk informasi stok dan pesanan.</p><p>Kami melayani pembelian langsung, pesanan grosir, dan pengiriman sesuai area layanan.</p><a href="#layanan" class="text-link">Kenali layanan kami <span>&#8594;</span></a></div></div></section>
-    <section class="services section" id="layanan"><div class="container"><div class="section-heading"><div><p class="eyebrow">LAYANAN KIA</p><h2>Belanja lebih<br><em>mudah, setiap hari.</em></h2></div><p>Untuk belanja rumah, warung makan, restoran, maupun toko sembako.</p></div><div class="service-grid"><article><span class="service-icon">&#8962;</span><span class="service-no">01 / TOKO</span><h3>Belanja langsung</h3><p>Datang dan pilih kebutuhan Anda di toko.</p></article><article><span class="service-icon">&#9993;</span><span class="service-no">02 / PESANAN</span><h3>Pesan lebih dulu</h3><p>Hubungi kami untuk bertanya stok dan menyiapkan pesanan.</p></article><article><span class="service-icon">&#8599;</span><span class="service-no">03 / PENGIRIMAN</span><h3>Diantar ke tujuan</h3><p>Tanyakan ketersediaan pengiriman ke lokasi Anda.</p></article><article><span class="service-icon">&#9636;</span><span class="service-no">04 / GROSIR</span><h3>Belanja grosir</h3><p>Kebutuhan usaha dan pembelian dalam jumlah besar.</p></article></div><div class="delivery-feature"><!-- TODO: GANTI DENGAN FOTO AKTIVITAS PENGIRIMAN --><img src="assets/images/placeholder-aktivitas-pengiriman.svg" alt="Placeholder untuk foto aktivitas pengiriman asli KIA"><div><span class="product-category">PESANAN SAMPAI KE ANDA</span><h3>Belanja banyak?<br><em>Tanyakan layanan antar.</em></h3><p>Untuk pesanan rumah tangga maupun kebutuhan usaha, hubungi KIA untuk informasi pengiriman.</p></div></div></div></section>
-    <section class="order section"><div class="container order-inner"><div><p class="eyebrow">LANGKAH SEDERHANA</p><h2>Empat langkah<br><em>menuju dapur.</em></h2><p class="order-intro">Belanja kebutuhan pokok Anda dengan alur yang mudah.</p></div><ol class="steps"><li><span>01</span><div><strong>Pilih produk</strong><small>Tentukan beras atau kebutuhan yang dicari.</small></div></li><li><span>02</span><div><strong>Hubungi WhatsApp</strong><small>Sampaikan produk dan jumlah yang dibutuhkan.</small></div></li><li><span>03</span><div><strong>Konfirmasi pesanan</strong><small>Tanyakan stok, harga, dan detail pesanan.</small></div></li><li><span>04</span><div><strong>Diantar atau diambil</strong><small>Pilih pengiriman jika tersedia atau ambil di toko.</small></div></li></ol></div></section>
-    <section class="location section" id="kontak">
-      <div class="container location-grid">
-        <div class="contact-panel">
-          <p class="eyebrow">KONTAK DAN LOKASI</p>
-          <h2>Hubungi<br><em>Toko Beras KIA.</em></h2>
-          <p class="location-copy">Silakan hubungi kami untuk informasi produk, stok, dan pemesanan.</p>
-          <div class="contact-line"><span>WHATSAPP UTAMA</span><a class="contact-value wa-link" data-whatsapp="primary" data-whatsapp-display="primary" href="#kontak">Memuat nomor...</a></div>
-          <div class="contact-line"><span>WHATSAPP ALTERNATIF</span><a class="contact-value wa-link" data-whatsapp="alternative" data-whatsapp-display="alternative" href="#kontak">Memuat nomor...</a></div>
-          <div class="contact-line"><span>EMAIL</span><a class="contact-value" data-business-email href="#kontak">Memuat email...</a></div>
+    <section class="services section" id="layanan">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">LAYANAN KIA</p><h2>Belanja lebih<br><em>mudah, setiap hari.</em></h2></div>
+          <p>Pilih cara berbelanja yang sesuai dengan kebutuhan rumah dan usaha Anda.</p>
         </div>
-        <div class="location-sites" aria-label="Alamat Toko Beras KIA">
-          <article class="location-card">
-            <p class="eyebrow">TOKO UTAMA</p>
-            <h3 data-location-name="store">Memuat nama toko...</h3>
-            <address data-location-address="store">Memuat alamat toko...</address>
-            <div class="location-actions">
-              <a class="button button-outline" data-map-link="store" href="#kontak" target="_blank" rel="noopener noreferrer">Lihat Lokasi di Google Maps</a>
-              <a class="button" data-directions-link="store" href="#kontak" target="_blank" rel="noopener noreferrer">Navigasi ke Toko</a>
+        <div class="service-cards">
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M7 21 11 10h26l4 11M9 21h30v19H9zM19 40V27h10v13M7 21c0 4 6 4 6 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 6 4 6 0M15 15h18"/></svg>
             </div>
+            <span class="service-card__eyebrow">01 / TOKO UTAMA</span>
+            <h3>Beli Beras Langsung di Toko</h3>
+            <p>Datang langsung ke Toko Beras KIA untuk memilih beras sesuai kebutuhan Anda.</p>
+            <button class="button service-card__button" type="button" data-service-open="store">Lihat Cara Pemesanan <span aria-hidden="true">&#8599;</span></button>
           </article>
-          <article class="location-card">
-            <p class="eyebrow">LOKASI PENGGILINGAN</p>
-            <h3 data-location-name="milling">Memuat nama lokasi...</h3>
-            <address data-location-address="milling">Memuat alamat penggilingan...</address>
-            <p class="location-note" data-location-note="milling">Memuat keterangan lokasi...</p>
-            <div class="location-actions">
-              <a class="button button-outline" data-map-link="milling" href="#kontak" target="_blank" rel="noopener noreferrer">Lihat Lokasi di Google Maps</a>
-              <a class="button" data-directions-link="milling" href="#kontak" target="_blank" rel="noopener noreferrer">Navigasi ke Penggilingan</a>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="m6 22 18-15 18 15M11 19v22h26V19M20 41V27h8v14M33 12h6v8M7 31h4m26 0h4M5 36h6m26 0h6"/></svg>
             </div>
+            <span class="service-card__eyebrow">02 / ANTAR KE RUMAH</span>
+            <h3>Pesan Sekarang, Kami Antar ke Rumah</h3>
+            <p>Pesan beras dari rumah dan kami antarkan langsung ke alamat Anda.</p>
+            <p class="service-card__limit"><span aria-hidden="true">&#10022;</span> Maksimal jarak pengantaran 5 km dari toko.</p>
+            <button class="button service-card__button" type="button" data-service-open="delivery">Lihat Cara Pemesanan <span aria-hidden="true">&#8599;</span></button>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M8 13h32v28H8zM13 8h22v5H13zM14 20h20M14 26h20M14 32h12M6 41h36M24 5v3M5 27H2m44 0h-3M8 10 6 8m36 2 2-2"/></svg>
+            </div>
+            <span class="service-card__eyebrow">03 / PESANAN GROSIR</span>
+            <h3>Pesan Banyak, Kami Gilingkan dan Antar Terjadwal</h3>
+            <p>Layanan pesanan beras dalam jumlah besar dengan proses penggilingan dan pengantaran sesuai jadwal yang disepakati.</p>
+            <p class="service-card__limit"><span aria-hidden="true">&#10022;</span> Minimal pesanan 50 kg.</p>
+            <button class="button service-card__button" type="button" data-service-open="wholesale">Lihat Cara Pemesanan <span aria-hidden="true">&#8599;</span></button>
           </article>
         </div>
       </div>
+      <dialog class="service-drawer" id="service-drawer" aria-labelledby="service-drawer-title" aria-describedby="service-drawer-description">
+        <div class="service-drawer__panel">
+          <header class="service-drawer__header">
+            <div><p class="eyebrow" id="service-drawer-eyebrow">PANDUAN LAYANAN KIA</p><h2 id="service-drawer-title">Cara Pemesanan</h2></div>
+            <button class="service-drawer__close" type="button" aria-label="Tutup panduan pemesanan">&#10005;</button>
+          </header>
+          <div class="service-drawer__content">
+            <p class="service-drawer__description" id="service-drawer-description"></p>
+            <p class="service-drawer__limit" id="service-drawer-limit" hidden><span aria-hidden="true">&#10022;</span><strong></strong></p>
+            <ol class="service-drawer__steps" id="service-drawer-steps"></ol>
+          </div>
+          <footer class="service-drawer__footer"><a class="button service-drawer__cta" id="service-drawer-cta" href="#layanan" target="_blank" rel="noopener noreferrer">Lanjutkan <span aria-hidden="true">&#8599;</span></a></footer>
+        </div>
+      </dialog>
     </section>
   </main>
   <footer class="footer">
