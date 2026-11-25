@@ -495,3 +495,9 @@ body.service-drawer-open { overscroll-behavior: none; }
 @keyframes service-drawer-enter-mobile { from { opacity: .75; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
 
 html.service-drawer-restoring-scroll { scroll-behavior: auto !important; }
+
+.service-card__image { position: relative; width: calc(100% + 48px); aspect-ratio: 16 / 9; flex: 0 0 auto; margin: -27px -24px 20px; overflow: hidden; background: var(--deep-brown); border-bottom: 1px solid var(--antique-gold); }
+.service-card__image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+@media (max-width: 680px) {
+  .service-card__image { width: calc(100% + 40px); margin: -23px -20px 18px; }
+}
